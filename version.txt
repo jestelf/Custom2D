@@ -1,0 +1,33 @@
+# UTF-8 encoding
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(2, 0, 0, 0),   # Версия файла
+        prodvers=(2, 0, 0, 0),   # Версия продукта
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0)
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    '040904B0',  # Локализация (английский США, 1252)
+                    [
+                        StringStruct('CompanyName', 'RipBrain'),
+                        StringStruct('FileDescription', 'Программа на патент'),
+                        StringStruct('FileVersion', '2.0.0.0'),
+                        StringStruct('InternalName', 'Sprite Customizer'),
+                        StringStruct('LegalCopyright', '© 2025 RipBrain'),
+                        StringStruct('OriginalFilename', 'Custom2D.exe'),
+                        StringStruct('ProductName', 'Sprite Customizer'),
+                        StringStruct('ProductVersion', '2.0.0.0'),
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct('Translation', [1033, 1200])])  # Локализация: английский, кодировка 1200 (UTF-16)
+    ]
+)
